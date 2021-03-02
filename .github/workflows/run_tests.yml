@@ -27,7 +27,7 @@ jobs:
         run: pip3 install pipenv
 
       - name: Create Pipenv environment
-        run: pipenv install --keep-outdated --ignore-pipfile
+        run: pipenv install --python=python3 --keep-outdated --ignore-pipfile
 
       - name: Run unit tests
         run: pipenv run py.test --ignore=tests/tools tests
