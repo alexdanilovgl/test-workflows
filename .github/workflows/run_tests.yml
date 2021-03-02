@@ -1,4 +1,4 @@
-name: Run tests for PRs and pushes into master for tools
+name: Run tests for PRs and pushes into master for app
 
 on:
   push:
